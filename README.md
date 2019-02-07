@@ -12,3 +12,14 @@
 
 ## Configuration
 - See src/README.md for the workflow details  
+
+## Static Assets
+- Simply keep in the root folder 
+- eg. 
+ * src/pages
+ * src/pagelets
+ * build/...
+ * assets/js/
+ * assets/css/
+ * assets/images/ , etc ...
+- The assets are accessed as assets/images/file.jpg , so on
