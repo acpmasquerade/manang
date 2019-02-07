@@ -11,4 +11,4 @@
 - python devserver.py
 
 ## Configuration
-- 
+- See src/README.md for the workflow details  
