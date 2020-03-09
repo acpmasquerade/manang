@@ -34,7 +34,7 @@ class DevServerRequestHandler(http.server.SimpleHTTPRequestHandler):
 
         outfile = open(tmp_path, "w")
 
-        for pagelet in sorted(glob.glob("src/pagelets/*.html")):
+        for pagelet in sorted(glob.glob("src/templates/default/*.html")):
             subcontent_file = page_source if pagelet.endswith(".CONTENT.html") else pagelet
             print(" | -- -- Pagelet {}".format(subcontent_file))
             try:
